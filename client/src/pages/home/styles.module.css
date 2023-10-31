@@ -1,0 +1,54 @@
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formContainer {
+    width: 40%;
+    height: 100%;
+    background: rgba(35, 58, 92, 1);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: #fff;
+}
+.rightContainer {
+    width: 60%;
+    height: 100%;
+    background-image: url(https://i0.1616.ro/media/2/2621/33219/20494866/1/iulius-town-timisoara.jpg?width=1200);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.userInput, .passInput {
+    display: block;
+    background: #6B97C8;
+    border: 0;
+    border-radius: 20px;
+    padding: 14px 30px;
+    width: 320px;
+    outline: none;
+    color: #fff;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -ms-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+::-webkit-input-placeholder {
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.userInput:focus, .passInput:focus {
+    border: 4px solid #00B6DD;
+    -webkit-transition: all .2s ease-in;
+    -moz-transition: all .2s ease-in;
+    -ms-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
